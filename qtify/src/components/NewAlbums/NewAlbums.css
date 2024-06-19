@@ -1,0 +1,22 @@
+.new-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  padding: 0px 30px;
+  align-items: baseline;
+}
+
+.new-albums {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.newalbums-wrapper {
+ margin: 18px 50px;
+}
+
+.new-toggletext {
+  color: var(--primary-color);
+}

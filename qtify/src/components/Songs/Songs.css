@@ -1,0 +1,10 @@
+.horizontal-border1,
+.horizontal-border2 {
+ border-top: 1px solid #ddd;
+ margin: 10px 0;
+}
+
+.tabs-title {
+ font-family: 'Poppins', sans-serif;
+ padding:10px 30px ;
+}
