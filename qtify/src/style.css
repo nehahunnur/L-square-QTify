@@ -56,4 +56,5 @@ h6 {
   color: #34c94b;
   border-radius:5px ;
   font-family: Poppins, sans-serif;
+  cursor: pointer;
 }
