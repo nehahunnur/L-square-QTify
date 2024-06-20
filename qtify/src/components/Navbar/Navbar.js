@@ -93,13 +93,15 @@ const Navbar = () => {
               ),
             }}
           />
-          <Button
+          <button
+          id='feedbackbutton'
             variant="contained"
             onClick={handleClickOpen}
             sx={{
               marginRight: '20px',
               backgroundColor: '#000',
               color: ' #34c94b',
+              fontFamily: 'Poppins, sans-serif',
               '&:hover': {
                 backgroundColor: '#333',
               },
@@ -107,7 +109,7 @@ const Navbar = () => {
           >
           
             Give Feedback
-          </Button>
+          </button>
         </Box>
         <Dialog open={open} onClose={handleClose}>
           <DialogTitle>Feedback</DialogTitle>
