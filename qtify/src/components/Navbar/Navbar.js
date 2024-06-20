@@ -99,7 +99,7 @@ const Navbar = () => {
             sx={{
               marginRight: '20px',
               backgroundColor: '#000',
-              color: '#fff',
+              color: ' #34c94b',
               '&:hover': {
                 backgroundColor: '#333',
               },
